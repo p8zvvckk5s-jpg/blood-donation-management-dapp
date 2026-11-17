@@ -99,7 +99,9 @@ Each member owns a complete module and its corresponding Session 7 presentation 
 ├── README.md
 ├── docs/
 │   ├── background.md
+│   ├── hua-opening-script.md
 │   ├── instructor-questions.md
+│   ├── slides-1-2.md
 │   └── team-responsibilities.md
 ├── contracts/
 │   └── README.md
