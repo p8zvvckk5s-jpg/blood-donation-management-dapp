@@ -55,3 +55,4 @@ The prototype will also demonstrate rejection of unauthorized and out-of-order a
 ## Proposed Success Criteria
 
 The MVP succeeds when a user can complete the simulated workflow in a browser, verify the corresponding blockchain transactions, and observe the rejection of at least one invalid action without exposing sensitive data.
+
