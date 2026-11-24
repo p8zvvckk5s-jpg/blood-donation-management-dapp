@@ -1,0 +1,12 @@
+{
+  "address": "0x3962Ef2f9C27c150F37a12a49b2a8287De8261d9",
+  "txHash": "0x704d9330e79103e590cd2be37dc23816b1502d50361b5ec34a383d54ddcc12c7",
+  "blockNumber": 12201501,
+  "gasUsed": "11765904",
+  "compiler": "solc 0.8.x",
+  "deployedAt": "2026-11-24T08:39:31.944Z",
+  "deployer": "0x6ec71A58908D575016fe68557A69F8B4469B07bf",
+  "treasury": "0x6ec71A58908D575016fe68557A69F8B4469B07bf",
+  "serviceFeeWei": "1000000000000000",
+  "rpc": "https://ethereum-sepolia-rpc.publicnode.com"
+}
