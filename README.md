@@ -99,17 +99,28 @@ Each member owns a complete module and its corresponding Session 7 presentation 
 ├── README.md
 ├── docs/
 │   ├── background.md
-│   ├── hua-opening-script.md
-│   ├── instructor-questions.md
-│   ├── slides-1-2.md
-│   └── team-responsibilities.md
+│   ├── related-work.md
+│   ├── contract-design.md
+│   └── mvp-test-plan.md
 ├── contracts/
-│   └── README.md
+│   └── BloodDonation.sol
+├── build/
+│   ├── BloodDonation.abi.json
+│   └── deployment.json
 ├── frontend/
 │   └── README.md
-└── test/
-    └── README.md
 ```
+
+## Sepolia Deployment
+
+- **Network:** Ethereum Sepolia (`chainId 11155111`)
+- **Contract:** `0x3962Ef2f9C27c150F37a12a49b2a8287De8261d9`
+- **Deployment transaction:** `0x704d9330e79103e590cd2be37dc23816b1502d50361b5ec34a383d54ddcc12c7`
+- **ABI:** [`build/BloodDonation.abi.json`](build/BloodDonation.abi.json)
+- **Deployment metadata:** [`build/deployment.json`](build/deployment.json)
+
+The deployment demonstrates that the revised contract can be placed on Sepolia. End-to-end
+frontend integration and the recorded execution of the full test plan remain future work.
 
 ## Questions for the Instructor
 
@@ -124,11 +135,15 @@ Each member owns a complete module and its corresponding Session 7 presentation 
 - [x] Research question and MVP boundary defined
 - [x] Team ownership assigned
 - [x] Privacy boundary documented
+- [x] Smart-contract framework added
+- [x] Related-work and requirements document added
+- [x] Contract design document added
+- [x] Architecture and MVP test plan added
+- [x] ABI and Sepolia deployment metadata added
+- [x] Revised Solidity contract deployed to Sepolia
 - [ ] Instructor questions answered
-- [ ] Smart-contract skeleton added by Long Yuan
-- [ ] Related-work document added by Song Wenjing
-- [ ] Architecture and test plan added by Zhang Chenyu
-- [ ] Prototype implemented and deployed
+- [ ] Frontend integrated with the deployed contract
+- [ ] T1–T13 executed with transaction evidence
 
 ## References
 
@@ -140,3 +155,4 @@ Each member owns a complete module and its corresponding Session 7 presentation 
 ## Educational and Privacy Notice
 
 This project is an educational prototype. It does not process real medical data and is not intended for clinical or production use.
+
